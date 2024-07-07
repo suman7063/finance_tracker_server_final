@@ -1,0 +1,17 @@
+{
+  "name": "json-server-netlify",
+  "version": "1.0.0",
+  "description": "Deploy JSON Server on Netlify",
+  "main": "server.js",
+  "scripts": {
+    "build": "netlify-lambda build functions",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "netlify-lambda": "^2.0.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^3.29.14"
+  }
+}
